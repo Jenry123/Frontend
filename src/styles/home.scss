@@ -1,0 +1,44 @@
+/* src/styles/homePage.scss */
+.homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    background-color: #f8f4e3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .tortilla-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .home-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .feature {
+    background-color: #94d44a;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 30%;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .feature h2 {
+    color: #ffffff;
+  }
+  
+  .feature p {
+    color: #5c4033;
+  }
+  

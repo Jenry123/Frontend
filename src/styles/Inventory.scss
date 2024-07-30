@@ -1,0 +1,60 @@
+@import '../main.scss';
+
+.container-inventory{
+    padding-top: 60px; 
+    box-sizing: border-box;
+   
+    .container-section{
+       
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10%;
+        padding: 20px;
+          p , select{
+            margin: 20px;
+          }
+
+          .container-option select{
+            width: calc(100%); 
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 16px;
+            margin: 10px;
+            border-radius: 5px;
+          }
+             
+    }
+
+
+    .container-render-form{
+       background-color: #F0EEEE;
+       width: 600px;
+       padding: 50px;
+       padding-top:10%;
+       position: relative;
+      
+       
+
+       textarea{
+        width: calc(85%); 
+        padding: 10px;
+        margin-top: 5px;
+       }
+    }
+
+
+    .form-title{
+        background-color: $btn-warning;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+
+        color: #F0EEEE;
+       
+       }
+
+}
+
+

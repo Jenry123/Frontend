@@ -1,0 +1,117 @@
+
+// importacion de boostrap para general
+@import "../node_modules/bootstrap/scss/functions";
+
+// mis variables sobreEscritas 
+
+$body-color: #111;
+$btn-primary:#3CA219;
+$btn-secondary:#fff;
+$btn-warning:#EDBF1B;
+$btn-success: #1A5627;
+$text-secondary:#fff;
+$btn-danger:#D89024;
+
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+.btn-primary{
+    background-color: $btn-secondary;
+    border: $btn-primary;
+    margin: 5px;
+    color: #111;
+
+   
+    &:hover,
+    &:focus{
+        background-color: $btn-warning;
+        color: $btn-secondary;
+    }
+
+    &.active-button {
+        background-color: $btn-warning;
+        color: $btn-secondary; 
+      }
+    
+      &.inactive-button {
+        background-color: $btn-secondary;
+        color: #111;
+      }
+} 
+
+.btn-danger{
+    background-color: $btn-danger;
+}
+.btn-warning{
+  background-color: $btn-warning;
+}
+
+.slider-container{
+  margin-right: 50px;
+}
+
+.content-box-section{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+  position: fixed;
+  z-index: 1000px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.content-section-page-article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.content-item{
+  margin-bottom: 40px;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+  .main-content {
+    padding-top: 60px; 
+    box-sizing: border-box;
+  }
+
+  .main-content-navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+  }
+
+  .content-section-page-user{
+    padding: 40px;
+  }
+
+  .list-inventory{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    justify-content: center;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000px;
+  }
